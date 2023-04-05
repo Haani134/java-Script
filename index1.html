@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function changecontent(){
+            document.getElementById('content').innerHTML="I love karnataka"
+        }
+    </script>
+</head>
+<body>
+    <h1>we are trying the javascript with various methods</h1>
+    <p id = "content">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. odit,velit.
+    </p>
+    <button 
+    type="button"
+    onclick="document.getElementById('content').innerHTML='I love my India'"
+    >
+     Try to change the content
+    </button>
+    <button type="button" onclick="changecontent()">
+        click here to change based on function call
+    </button>
+</body>
+</html>
